@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <style>
+header{
+font-size: 30px;
+position: relative;
+text-decoration: none;
+}
+ ul li{
+    text-decoration: none;
+display: inline-flex;
+flex-direction: row;
+padding-left: 100px;
+justify-content: center;
+
+}
+a{
+    text-decoration: none;
+}
+nav{
+    text-align:center;
+
+}
+.logo{
+    position: absolute;
+    top: 0px;
+}
+.bg
+{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 200px;
+    border-radius: 50px;
+    background-color: black;
+    border: 3px solid maroon;
+}
+.line{
+    background-color: black;
+    width:100%;
+    height: 1px;
+}
+.imgbg{
+    width: 950px;
+    text-align: center;
+    background:linear-gradient(90deg,#DFD400,#CAE9FF,#00296B);
+    height: 700px;
+    padding-top: 200px;
+    padding-left: 290px;
+    margin-left: 650px;
+border-top-left-radius: 200px;
+border-bottom-right-radius: 200px;
+border-top-right-radius: 10px;
+}
+.bio{
+    position: absolute;
+    top: 140px;
+    font-size: 30px;
+    width: 400px;
+    left: 1500px;
+    text-align: center;
+    background-color: rgba(240,232,232,0.3);
+    border-radius: 30px;
+    padding: 50px;
+    backdrop-filter: blur(70px);
+-webkit-backdrop-filter: blur(15.9px);
+font-family: sans-serif;
+box-shadow:inset 10px 10px 10px rgba(101, 158, 222, 0.211),inset -10px -10px 10px rgba(255, 234, 0, 0.074)
+;
+font-style: italic;
+}
+.hi{
+    font-size: 56px;
+    background:linear-gradient(230deg,#FFEA00,#CAE9FF,#2667ff);
+    -webkit-background-clip: text;
+    color: transparent;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+font-stretch:ultra-expanded;
+font-style: normal;
+
+}
+.location{
+    background-color: rgba(240,232,232,0.3);
+    -webkit-backdrop-filter: blur(12.4px);
+    backdrop-filter: blur(70px);
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 1500px;
+border-radius: 30px;
+box-shadow:inset 10px 10px 10px rgba(101, 158, 222, 0.211),inset -10px -10px 10px rgba(255, 234, 0, 0.074);
+}
+.role{
+    background-color: rgba(240,232,232,0.3);
+    -webkit-backdrop-filter: blur(12.4px);
+    backdrop-filter: blur(70px);
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    top: 400px;
+    left: 1720px;
+border-radius: 30px;
+box-shadow:inset 10px 10px 10px rgba(101, 158, 222, 0.211),inset -10px -10px 10px rgba(255, 234, 0, 0.074);  
+}
+.about{
+    background-color: rgba(240,232,232,0.3);
+    -webkit-backdrop-filter: blur(12.4px);
+    backdrop-filter: blur(70px);
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 470px;
+    left: 1500px;
+border-radius: 30px;
+box-shadow:inset 10px 10px 10px rgba(101, 158, 222, 0.211),inset -10px -10px 10px rgba(255, 234, 0, 0.074);
+}
+.tech{
+    background-color: rgba(240,232,232,0.3);
+    -webkit-backdrop-filter: blur(12.4px);
+    backdrop-filter: blur(70px);
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 560px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    position: absolute;
+    top: 570px;
+    left: 1520px;
+border-radius: 30px;
+box-shadow:inset 10px 10px 10px rgba(101, 158, 222, 0.211),inset -10px -10px 10px rgba(255, 234, 0, 0.074);  
+}
+.tec{
+font-weight: bolder;
+}
+.quote{
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: aliceblue; 
+       background-color: rgba(49, 47, 47, 0.833);
+    -webkit-backdrop-filter: blur(12.4px);
+    backdrop-filter: blur(70px);
+    font-size: 50px;
+    height: 170px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    top: 670px;
+    left: 1520px;
+    padding: 25px;
+border-radius: 30px;
+font-stretch: extra-condensed;
+align-items: center;
+box-shadow:inset 10px 10px 10px rgba(101, 158, 222, 0.577),inset -10px -10px 10px rgba(255, 234, 0, 0.577);  
+
+}
+.skills{
+    position: relative;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+}
+.si{
+    display:flex;
+    flex-direction: row;
+    padding: 100px;
+    justify-content:space-evenly;
+}
+.Ts{
+    color: WHITE;
+padding: 50px;
+font-size: 30px;
+border-radius: 20px;
+font-family: sans-serif;
+text-align: center;
+font-stretch: ultra-expanded;
+    backdrop-filter: blur(70px);
+    text-align: center;
+border-radius: 30px;
+border: 1px solid white;
+}
+.techni{
+text-align: center;
+font-weight: bolder;
+}
+.Nts{
+padding: 50px;
+font-size: 30px;
+border-radius: 20px;
+font-family: sans-serif;
+text-align: center;
+font-stretch: ultra-expanded;
+width: 500px;
+height: 250px;
+border-radius: 30px;
+
+color: white;
+border: 1px solid white;
+
+}
+.non{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                
+                <li> <a href="#">About</a></li>
+                    <li> <a href="#">Skills</a></li>
+                        <li> <a href="#">Projects</a></li>
+                            <li> <a href="#">Contact</a></li>
+                                <li> <a href="#">Resume</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="line"></div><br>
+    <div class="bio">
+        <span class="hi">
+Hey There I am Nischit
+        </span>
+        <br>  
+    </div>
+    <div class="location">
+        Hyderabad
+</div>
+<div class="role">
+    Front-End Developer
+</div>
+<div class="about">
+    I love to make the websites look to attractive,cool.  
+</div>
+<div class="tech">
+    <span class="tec">Technologies I Use:-</span>
+    HTML,CSS,JS
+</div>
+<div class="quote">
+    Pushing Pixels By Choice
+</div>
+    <div class="imgbg">
+
+        <div class="img">
+            <img  class="bg"src="IMG_0614.JPG">
+        </div>
+    </div>
+    <div class="skills">
+        <div class="si">
+            <div class="Ts">
+                <span class="techni">
+        Technical Skills
+                </span><br><br>
+                C Language<br>
+               <img class="c1" src="check.png"> Beginner&nbsp;&nbsp;&nbsp;&nbsp; <img class="c2" src="uncheck.png">Intermediate&nbsp;&nbsp;&nbsp;&nbsp; <img class="c3" src="uncheck.png">Advanced&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+                JAVA programming<br>
+                <img class="c4" src="check.png"> Beginner&nbsp;&nbsp;&nbsp;&nbsp; <img class="c5" src="uncheck.png">Intermediate&nbsp;&nbsp;&nbsp;&nbsp; <img class="c5" src="uncheck.png">Advanced&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+                DSA<br>
+                <img class="c6" src="check.png"> Beginner&nbsp;&nbsp;&nbsp;&nbsp; <img class="c7" src="uncheck.png">Intermediate&nbsp;&nbsp;&nbsp;&nbsp; <img class="c8" src="uncheck.png">Advanced&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+                DBMS<br>
+                <img class="c9" src="check.png"> Beginner&nbsp;&nbsp;&nbsp;&nbsp; <img class="c10" src="uncheck.png">Intermediate&nbsp;&nbsp;&nbsp;&nbsp; <img class="c11" src="uncheck.png">Advanced&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+                PHP<br>
+                <img class="c12" src="check.png">Beginner&nbsp;&nbsp;&nbsp;&nbsp; <img class="c13" src="uncheck.png">Intermediate&nbsp;&nbsp;&nbsp;&nbsp; <img class="c14" src="uncheck.png">Advanced&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+                HTML/CSS<br>
+                <img class="c15" src="uncheck.png">Beginner&nbsp;&nbsp;&nbsp;&nbsp; <img class="c16" src="check.png">Intermediate&nbsp;&nbsp;&nbsp;&nbsp; <img class="c17" src="uncheck.png">Advanced&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+                JS<br>
+                <img class="c18" src="check.png"> Beginner&nbsp;&nbsp;&nbsp;&nbsp; <img class="c19" src="uncheck.png">Intermediate&nbsp;&nbsp;&nbsp;&nbsp; <img class="c20" src="uncheck.png">Advanced&nbsp;&nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+</div>
+            <div class="Nts">
+                <Span class="non">Non-Technical Skills</Span><br><br>
+                Team Work<br>
+                Communication<br>
+                Task Management<br>
+Public Speaking<br>
+
+            </div>
+        </div>
+
+    </div>
+<div class="projects">
+    <div class="p1">
+        <a href=""
+    </div>
+</div>
+</body>
+</html>
