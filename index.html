@@ -9,6 +9,7 @@ header{
 font-size: 30px;
 position: relative;
 text-decoration: none;
+color: #FFEA00;
 }
  ul li{
     text-decoration: none;
@@ -17,9 +18,11 @@ flex-direction: row;
 padding-left: 100px;
 justify-content: center;
 
+
 }
 a{
     text-decoration: none;
+    
 }
 nav{
     text-align:center;
@@ -38,6 +41,7 @@ nav{
     border-radius: 50px;
     background-color: black;
     border: 3px solid maroon;
+    background-color: black;
 }
 
 .line{
@@ -73,6 +77,7 @@ font-family: sans-serif;
 box-shadow:inset 10px 10px 10px rgba(101, 158, 222, 0.211),inset -10px -10px 10px rgba(255, 234, 0, 0.074)
 ;
 font-style: italic;
+background-color: black;
 }
 .hi{
     font-size: 56px;
@@ -168,6 +173,7 @@ font-weight: bolder;
     padding: 25px;
 border-radius: 30px;
 font-stretch: extra-condensed;
+justify-content: center;
 align-items: center;
 box-shadow:inset 10px 10px 10px rgba(101, 158, 222, 0.577),inset -10px -10px 10px rgba(255, 234, 0, 0.577);  
 
@@ -353,6 +359,10 @@ width: 90px;
     font-size: 30px;
     text-decoration:underline;
 }
+html{
+    scroll-behavior: smooth;
+    
+}
     </style>
 </head>
 <body>
@@ -361,17 +371,17 @@ width: 90px;
         <nav>
             <ul>
                 
-                <li> <a href="#">About</a></li>
-                    <li> <a href="#">Skills</a></li>
-                        <li> <a href="#">Projects</a></li>
-                            <li> <a href="#">Contact</a></li>
+                <li> <a href="#about1">About</a></li>
+                    <li> <a href="#skills1">Skills</a></li>
+                        <li> <a href="#projects1">Projects</a></li>
+                            <li> <a href="#contact1">Contact</a></li>
                                 <li> <a href="#">Resume</a></li>
                 
             </ul>
         </nav>
     </header>
     <div class="line"></div><br>
-    <div class="bio">
+    <div id="about1" class="bio">
         <span class="hi">
 Hey There I am Nischit
         </span>
@@ -399,7 +409,7 @@ Hey There I am Nischit
             <img  class="bg"src="IMG_0614.JPG">
         </div>
     </div>
-    <div class="skills">
+    <div id="skills1" class="skills">
         <div class="si">
             <div class="Ts">
                 <span class="techni">
@@ -445,7 +455,7 @@ Public Speaking<br>
         </div>
 
     </div>
-<div class="projects">
+<div id="projects1" class="projects">
    <marquee> <div class="titl">Projects</div></marquee>
    <div class="prr">    <div class="p1">
         <a href="https://nischit08.github.io/CODSOFT/"><img class="lo"src="nike logo.png"></a>
@@ -461,7 +471,7 @@ Public Speaking<br>
     </div>
 </div>
 </div>
-<div class="contact">
+<div id="contact1" class="contact">
     <div class="wwe">Contact Information</div>
     <div class="box">
     <div class="mail">
